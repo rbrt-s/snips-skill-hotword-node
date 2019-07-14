@@ -59,3 +59,8 @@ typings/
 
 # next.js build output
 .next
+
+# Snips files and test files
+config.ini
+snips.toml
+.DS_Store

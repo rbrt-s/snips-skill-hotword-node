@@ -1,0 +1,11 @@
+[global]
+hotwordFile[]=jarvis.umdl
+sensitivity[]=0.75,0.75
+hotwords[]=jarvis,jarvis
+
+hotwordFile[]=snowboy.umdl
+sensitivity[]=0.5
+hotwords[]=snowboy
+
+applyFrontend=true
+audioGain=2.0

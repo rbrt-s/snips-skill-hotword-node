@@ -1,0 +1,33 @@
+{
+  "name": "snips-skill-hotword-node",
+  "version": "0.1.0",
+  "description": "Snips Skill for Custom Hotword in Node",
+  "main": "action-hotword.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rbrt-s/snips-skill-hotword-node.git"
+  },
+  "keywords": [
+    "snips",
+    "snips.ai",
+    "hotword",
+    "custom",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rbrt-s/snips-skill-hotword-node/issues"
+  },
+  "homepage": "https://github.com/rbrt-s/snips-skill-hotword-node#readme",
+  "dependencies": {
+    "ini": "^1.3.5",
+    "mqtt": "^3.0.0",
+    "node-record-lpcm16": "^0.3.1",
+    "snowboy": "^1.3.1",
+    "toml": "^3.0.0"
+  }
+}
