@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const record = require('node-record-lpcm16');
 const { Detector, Models }= require('snowboy');
 const mqtt = require('mqtt');
@@ -8,7 +9,7 @@ const ini = require('ini');
 const toml = require('toml');
 
 const hotwordConfig = ini.parse(fs.readFileSync(path.join(__dirname, 'config.ini'), 'utf-8'));
-const snipsConfig = toml.parse(fs.readFileSync(path.join('/etc', 'snips.toml'), 'utf-8'));
+const snipsConfig = toml.parse(fs.readFileSync(path.join('/etc','snips.toml'), 'utf-8'));
 
 //
 // Config
